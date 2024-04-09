@@ -1,0 +1,153 @@
+body {
+  background-color: hsl(0, 0%, 100%);
+}
+h1,h2 {
+  font-family: 'Young Serif' ,Outfit;
+  font-weight: 400;
+  color:hsl(24, 5%, 18%);
+}
+p,table {
+  font-family: 'Outfit' ,Young Serif ,Arial;
+  font-size: 16px;
+  line-height: 25px;
+  color:hsl(24, 5%, 18%);
+}
+ul,ol {
+  font-family: 'Outfit' ,Young Serif ,Arial;
+  font-size: 16px;
+}
+.omelette-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+.basic-info {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: hsl(0, 0%, 100%);
+}
+.prepare-div {
+  background-color: hsl(330, 100%, 98%);
+  padding-left: 40px;
+  padding-right: 18px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.prepare {
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: rgb(123,40,79);
+}
+.ul-1 {
+  margin-top: -10px;
+  margin-bottom: 0px;
+  margin-left: -20px;
+}
+.list {
+  padding-left: 20px; /* set space between bullet and text */
+  line-height: 25px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: hsl(30, 10%, 34%);
+}
+.list::marker {
+  color: rgb(123,40,79); /* set bullet color */
+}
+.TPC,.cooking-step {
+  font-weight: 600;
+  color: hsl(30, 10%, 34%);
+}
+.ingredients-div {
+  background-color: hsl(0, 0%, 100%);
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  border-bottom: 1px solid hsl(30, 18%, 87%)
+}
+.ingredients,.instructions,.nutrition {
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.list-2 {
+  padding-left: 20px;
+  line-height: 25px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color:hsl(24, 5%, 18%);
+}
+.ul-2 {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: -20px;
+}
+.list-2::marker {
+  color: hsl(14, 45%, 36%);
+}
+.instructions-div {
+  background-color: hsl(0, 0%, 100%);
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  border-bottom: 1px solid hsl(30, 18%, 87%)
+}
+.ol {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: -20px;
+}
+.list-3 {
+  padding-left: 20px;
+  line-height: 25px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: hsl(30, 10%, 34%);
+}
+.list-3::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+.nutrition-div{
+  background-color: hsl(0,0%,100%);
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.tr {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+td {
+  padding-left: 26px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.amount {
+  font-weight: 600;
+  color: hsl(14,45%,36%);
+}
+.attribution {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: hsl(0, 0%, 100%);
+  text-align: center;
+  line-height: 25px;
+}
